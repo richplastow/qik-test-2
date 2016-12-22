@@ -1,0 +1,25 @@
+{
+  "name": "qik-test-2",
+  "version": "0.0.1",
+  "description": "Xx.",
+  "main": "dist/qik-test-2.js",
+  "scripts": {
+    "test": "node test.js",
+    "make": "node make.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loopdotcoop/life.git"
+  },
+  "keywords": [
+  ],
+  "author": "Rich Plastow <rich@richplastow.com> (http://richplastow.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loopdotcoop/life/issues"
+  },
+  "homepage": "http://richplastow.com/",
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
+}
