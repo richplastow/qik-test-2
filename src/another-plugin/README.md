@@ -1,4 +1,4 @@
-#### src/another-plugin/first-section.js
+#### [src/another-plugin/first-section.js](https://github.com/richplastow/qik-test-2/blob/master/src/another-plugin/first-section.js)
 
 Here’s the script title
 -----------------------
@@ -32,7 +32,7 @@ let foo = arg => {
 ```
 
 
-#### src/another-plugin/second-section.js
+#### [src/another-plugin/second-section.js](https://github.com/richplastow/qik-test-2/blob/master/src/another-plugin/second-section.js)
 
 This is the second section
 ---------------------------

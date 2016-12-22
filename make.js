@@ -7,6 +7,7 @@ const PACKAGE  = require('./package.json')
     , NAME     = PACKAGE.name
     , VERSION  = PACKAGE.version
     , HOMEPAGE = PACKAGE.homepage
+    , REPO     = PACKAGE.repository.url.slice(4, -4)
     , fs = require('fs')
     , path = require('path')
     , uglify = require('uglify-js') // probs? Try `$ npm install -g uglify-js`
@@ -39,7 +40,7 @@ function processDir (topName) {
 function processRaw (relPath) {
   let nowInCode = false
     , cutAt = null
-    , out = [ '#### ' + relPath, '' ]
+    , out = [ '#### ['+relPath+']('+REPO+'/blob/master/'+relPath+')', '' ]
     , absPath = path.resolve(relPath)
   ;
   (fs.readFileSync(absPath)+'').split('\n').forEach( (line) => {

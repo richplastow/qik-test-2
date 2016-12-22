@@ -1,4 +1,4 @@
-#### src/some-plugin/the-only-section.js
+#### [src/some-plugin/the-only-section.js](https://github.com/richplastow/qik-test-2/blob/master/src/some-plugin/the-only-section.js)
 
 
 ```js

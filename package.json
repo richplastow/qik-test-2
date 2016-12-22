@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loopdotcoop/life.git"
+    "url": "git+https://github.com/richplastow/qik-test-2.git"
   },
   "keywords": [
   ],
   "author": "Rich Plastow <rich@richplastow.com> (http://richplastow.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/loopdotcoop/life/issues"
+    "url": "https://github.com/richplastow/qik-test-2/issues"
   },
   "homepage": "http://richplastow.com/",
   "devDependencies": {
