@@ -17,11 +17,14 @@ And _here’s_ some ES6, with minimal punctuation:
         return 'ok!'
     }
 
-- Atom is able to highlight the markdown, but not the code.
+- GitHub is able to style the markdown, but not the code
+- Atom is able to highlight the markdown, but not the code
+- Sublime 2 does a bad job of this - maybe an update is in order..?
+- Visual Studio Code is able to highlight the markdown, but not the code
 
-## Triple Backticks labelled 'JavaScript'
+## Triple Backticks labelled either 'js' or 'JavaScript'
 
-```JavaScript
+```js
     var abc = 123;
     function foo () {
       return 'bar!';
@@ -36,4 +39,7 @@ And _here’s_ some ES6, with minimal punctuation:
     }
 ```
 
-- Atom highlights the code here.
+- GitHub highlights the code here
+- Atom highlights the code here
+- Sublime 2 does a bad job of this - maybe an update is in order..?
+- Visual Studio Code understands 'js' but not 'JavaScript'
