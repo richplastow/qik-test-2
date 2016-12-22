@@ -40,7 +40,7 @@ function processDir (topName) {
 function processRaw (relPath) {
   let nowInCode = false
     , cutAt = null
-    , out = [ '#### ['+relPath+']('+REPO+'/blob/master/'+relPath+')', '' ]
+    , out = ['#### ['+relPath+']('+REPO+'/blob/master/'+relPath+')', '' ]
     , absPath = path.resolve(relPath)
   ;
   (fs.readFileSync(absPath)+'').split('\n').forEach( (line) => {
@@ -65,7 +65,8 @@ function processRaw (relPath) {
       cutAt = null                          // not in a run of blank lines
     }
   })
-  if (nowInCode) out.push('```','')         // complete fenced code, if needed
+  if (nowInCode) out.push('```')            // complete fenced code, if needed
+  out.push('','***')                        // always end with an <HR>
   return out.join('\n')
 }
 

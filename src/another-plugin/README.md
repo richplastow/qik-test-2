@@ -31,6 +31,7 @@ let foo = arg => {
 
 ```
 
+***
 
 #### [src/another-plugin/second-section.js](https://github.com/richplastow/qik-test-2/blob/master/src/another-plugin/second-section.js)
 
@@ -59,3 +60,6 @@ let foo = arg => {
 ```
 
 This time, we end with a comment.
+
+
+***
