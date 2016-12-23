@@ -1,45 +1,24 @@
-# qik-test-2
+# Title here
 
-## Just Indented
+## Contents
 
-Here’s some standard JavaScript:
+This would be a rundown of the ‘src’ directory, with links...
 
-    var abc = 123;
-    function foo () {
-      return 'bar!';
-    }
+- Another Plugin
+  - First Section
+  - Second Section
+- Empty Plugin
+- Some Plugin
+  - The Only Section
 
-And _here’s_ some ES6, with minimal punctuation:
+***
 
-    const ABC = 456
-    let foo = arg => {
-      if (arg)
-        return 'ok!'
-    }
+## Main or Boot script
 
-- GitHub is able to style the markdown, but not the code
-- Atom is able to highlight the markdown, but not the code
-- Sublime 2 does a bad job of this - maybe an update is in order..?
-- Visual Studio Code is able to highlight the markdown, but not the code
-
-## Fenced code blocks, labelled either 'js' or 'JavaScript'
+The source code (with //// comments converted to markdown) would go here...
 
 ```js
-    var abc = 123;
-    function foo () {
-      return 'bar!';
-    }
-```
 
-```JavaScript
-    const ABC = 456
-    let foo = arg => {
-      if (arg)
-        return 'ok!'
-    }
-```
 
-- GitHub highlights the code here
-- Atom highlights the code here
-- Sublime 2 does a bad job of this - maybe an update is in order..?
-- Visual Studio Code understands 'js' but not 'JavaScript'
+
+```
