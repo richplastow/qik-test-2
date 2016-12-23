@@ -7,3 +7,5 @@
 
 import { sum } from './math.js';
 document.write( 'sum(1, 2) is: ' + sum(1, 2) );
+console.log( 'sum(1, 2) is: ' + sum(1, 2) );
+alert( 'sum(1, 2) is: ' + sum(1, 2) );
